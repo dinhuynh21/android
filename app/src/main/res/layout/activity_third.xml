@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity">
+    <EditText
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:background="@color/red"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orange"
+        android:background="@color/orange"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/red"
+        />
+
+    <EditText
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yellow"
+        android:background="@color/yellow"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@+id/orange"/>
+
+    <EditText
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:background="@color/green"
+        android:textSize="30sp"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@+id/yellow"/>
+    <EditText
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue"
+        android:background="@color/blue"
+        android:textSize="30sp"
+        android:layout_marginTop="200dp"
+        android:layout_toLeftOf="@+id/green" />
+    <EditText
+        android:id="@+id/indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indigo"
+        android:background="@color/indigo"
+        android:textSize="30sp"
+        android:layout_marginTop="250dp"
+        android:layout_toLeftOf="@+id/blue"/>
+    <EditText
+        android:id="@+id/violet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Violet"
+        android:background="@color/violet"
+        android:textSize="30sp"
+        android:layout_marginTop="300dp"
+        android:layout_toLeftOf="@+id/indigo" />
+
+</RelativeLayout>

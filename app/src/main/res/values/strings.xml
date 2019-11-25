@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title">Hello world !</string>
+    <string name="actor">HLM Đính @ T2</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string-array name="cbbname">
+        <item>Cộng</item>
+        <item>Trừ</item>
+        <item>Nhân</item>
+        <item>Chia</item>
+    </string-array>
+</resources>
